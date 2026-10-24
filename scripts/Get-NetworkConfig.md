@@ -89,18 +89,12 @@ Compare the result with the lab network configuration and investigate the releva
 - It does not verify domain controller discovery or file-share access.
 - Results must be interpreted in the context of the affected system and reported symptom.
 
-## 9. Evidence Record
-
-Record the test date, operating system, observed adapter, relevant configuration, and any unexpected errors.
-
-Do not publish passwords, tokens, personal information, or unrelated network details.
-
-## 10. Related Resources
+## 9. Related Resources
 
 - [Lab Environment Setup](../01-build-the-lab/README.md)
 - [PowerShell Scripts Index](README.md)
 
-## 11. Test Status
+## 10. Test Status
 
 **Status:** Tested in the documented lab environment.
 
@@ -135,3 +129,11 @@ The execution policy was changed only for the current PowerShell process during 
 ### Follow-up Improvement
 
 Consider improving the IPv4 configuration output so that DNS server addresses are displayed directly and consistently.
+
+## 11. Evidence Record
+
+### Test Evidence
+
+![Get-NetworkConfig.ps1 test output](screenshots/get-network-config-test.png)
+
+Do not publish passwords, tokens, personal information, or unrelated network details.
