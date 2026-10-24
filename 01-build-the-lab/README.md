@@ -11,16 +11,16 @@ This section starts with the prerequisites and covers virtual machine creation, 
 | Lab | Topic | Status |
 |---|---|---|
 | 01 | Check host requirements and prepare installation media | Planned |
-| 02 | Create an isolated Hyper-V virtual switch | Planned |
-| 03 | Create and install the domain controller VM | Planned |
-| 04 | Configure the domain controller's network settings | Planned |
-| 05 | Install and verify Active Directory Domain Services and DNS | Planned |
-| 06 | Create and install the Windows client VM | Planned |
-| 07 | Configure and verify client networking | Planned |
+| 02 | Create an isolated Hyper-V virtual switch | Completed |
+| 03 | Create and install the domain controller VM | Completed |
+| 04 | Configure and verify domain controller networking | Completed |
+| 05 | Install and verify AD DS and DNS | Completed |
+| 06 | Create and install the Windows client VM | Completed |
+| 07 | Configure and verify client networking | Completed |
 | 08 | Join the client to the domain | Planned |
 | 09 | Create test users, groups, and organisational units | Planned |
-| 10 | Create and configure a practice file share | Planned |
-| 11 | Verify the complete working baseline | Planned |
+| 10 | Create and test a practice file share | Planned |
+| 11 | Verify the complete working baseline | In Progress |
 
 ## Documentation Standard
 
