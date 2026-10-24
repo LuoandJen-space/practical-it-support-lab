@@ -8,7 +8,7 @@ It is intended as an initial diagnostic step, not as proof that the entire netwo
 
 ## Related Lab
 
-- **Lab 07:** Configure and verify client networking
+- **Lab 07:** [Configure and verify client networking](../01-build-the-lab/README.md#lab-07-configure-and-verify-client-networking)
 - **Purpose:** Use this script to inspect the client network adapter, IPv4 configuration, and DNS server settings during Lab 07 validation.
 - **Test environment:** CLIENT01 (Windows 11 Pro).
 
