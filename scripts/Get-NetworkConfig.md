@@ -6,6 +6,12 @@ This script collects basic network adapter and IP configuration information to s
 
 It is intended as an initial diagnostic step, not as proof that the entire network is working correctly.
 
+## Related Lab
+
+- **Lab 07:** Configure and verify client networking
+- **Purpose:** Use this script to inspect the client network adapter, IPv4 configuration, and DNS server settings during Lab 07 validation.
+- **Test environment:** CLIENT01 (Windows 11 Pro).
+
 ## 2. Environment
 
 - **Primary system:** CLIENT01
