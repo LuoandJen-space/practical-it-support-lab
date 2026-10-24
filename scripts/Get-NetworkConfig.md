@@ -102,6 +102,36 @@ Do not publish passwords, tokens, personal information, or unrelated network det
 
 ## 11. Test Status
 
-**Status:** Planned until execution and results have been reviewed.
+**Status:** Tested in the documented lab environment.
 
-Record the actual test environment and observed results before marking this script as verified.
+### Test Environment
+
+- **System:** CLIENT01
+- **Operating system:** Windows 11 Pro
+- **Shell:** Windows PowerShell
+- **Script path:** `C:\github\Get-NetworkConfig.ps1`
+- **Initial execution policy:** `Restricted`
+- **Test execution policy:** `RemoteSigned`, applied to the current PowerShell process only
+
+### Observed Results
+
+- The script executed successfully without unexpected errors.
+- The network adapter `Ethernet` was identified with status `Up`.
+- The observed IPv4 address was `192.168.50.20`.
+- No default gateway was configured on the lab interface.
+- The configured IPv4 DNS server was `192.168.50.10`.
+- All three output sections were displayed.
+
+### Notes and Limitations
+
+The DNS information displayed by `Get-NetIPConfiguration` included object details rather than directly presenting the DNS server IP address. The separate DNS configuration section displayed the server address clearly.
+
+The successful run confirms that the script executed in this lab environment. It does not establish compatibility with every supported Windows configuration or verify end-to-end network connectivity.
+
+### Security Note
+
+The execution policy was changed only for the current PowerShell process during testing. No persistent execution policy change was made.
+
+### Follow-up Improvement
+
+Consider improving the IPv4 configuration output so that DNS server addresses are displayed directly and consistently.
