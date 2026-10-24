@@ -82,6 +82,8 @@ The host is ready for the next lab, and both operating system installation image
 Record the following information after completing the checks:
 
 - Windows edition and host memory
+![Windows edition and host memory](screenshot/win-editi-host-memory.png)
+*Figure 1: Checking the Windows edition, processor, and installed RAM on the host computer.*
 - Hyper-V availability
 - Installation ISO filenames and locations
 - Available storage on the intended virtual machine drive
