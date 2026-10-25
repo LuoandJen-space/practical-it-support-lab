@@ -45,6 +45,8 @@ Only perform this step if the switch does not already exist.
 4. Add a description such as `Isolated network for the Active Directory lab`.
 5. Click **Apply**, then **OK**.
 
+![virtu switch AD_Lab](screenshot/virtual-switch.png)
+
 ### Step 4 — Verify the Switch Configuration
 
 1. Open PowerShell as Administrator.
@@ -58,6 +60,8 @@ Get-VMSwitch -Name "AD-Lab-Private" |
 3. Check that the output shows:
    - Name: `AD-Lab-Private`
    - SwitchType: `Private`
+
+![virtu switch config check](screenshot/verify-switch-config.png)
 
 ### Step 5 — Connect the Virtual Machines
 
