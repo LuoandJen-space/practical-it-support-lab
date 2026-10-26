@@ -77,8 +77,8 @@ Both DC01 and CLIENT01 should use the same private virtual switch for this lab.
 
 ## 5. Validation Checklist
 
-- [x] `AD-Lab-Private` exists.
-- [x] The switch type is `Private`.
+- [ ] `AD-Lab-Private` exists.
+- [ ] The switch type is `Private`.
 - [ ] DC01 is connected to `AD-Lab-Private`.
 - [ ] CLIENT01 is connected to `AD-Lab-Private`.
 - [ ] Communication between the two VMs is tested in the relevant networking labs.
