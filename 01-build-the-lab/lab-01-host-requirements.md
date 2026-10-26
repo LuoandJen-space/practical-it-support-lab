@@ -29,7 +29,8 @@ By the end of this lab, the host requirements and installation media should be c
 2. Navigate to **System → About**.
 3. Check the Windows edition, processor, and installed RAM.
 4. Confirm that the host meets the requirements for running the planned virtual machines.
-
+![Windows edition and host memory](screenshot/win-editi-host-memory.png)
+*Figure 1: Checking the Windows edition, processor, and installed RAM on the host computer.*
 ### Step 2 — Verify Hyper-V Availability
 
 1. Open **Start** and search for **Turn Windows features on or off**.
@@ -77,23 +78,10 @@ Review the planned virtual disk sizes and available drive space before proceedin
 
 The host is ready for the next lab, and both operating system installation images are available.
 
-## 8. Evidence Record
-
-Record the following information after completing the checks:
-
-- Windows edition and host memory
-![Windows edition and host memory](screenshot/win-editi-host-memory.png)
-*Figure 1: Checking the Windows edition, processor, and installed RAM on the host computer.*
-- Hyper-V availability
-- Installation ISO filenames and locations
-- Available storage on the intended virtual machine drive
-
-Screenshots may be added where they help demonstrate the configuration or verification result. Avoid including personal information.
-
-## 9. Status
+## 8. Status
 
 **Status:** Preparation confirmed; detailed host and storage checks remain to be documented.
 
-## 10. Next Lab
+## 9. Next Lab
 
 [Lab 02 — Create an Isolated Hyper-V Virtual Switch](lab-02-hyperv-private-switch.md)
