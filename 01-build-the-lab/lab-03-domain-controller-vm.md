@@ -107,7 +107,7 @@ For a Generation 2 VM, review the Secure Boot configuration if the VM cannot boo
 4. If prompted, press a key to boot from the DVD or ISO.
 
 The Windows Server installation screen should appear.
-
+![virtu switch config check](screenshot/AD-Lab-DC01.png)
 ### Step 10 — Install Windows Server
 
 1. Select the appropriate language, time and currency format, and keyboard layout.
@@ -136,13 +136,13 @@ Open PowerShell inside DC01 and run:
 Get-ComputerInfo |
     Select-Object WindowsProductName, WindowsVersion, OsArchitecture
 ```
-
+![virtu switch config check](screenshot/Verify-DC01.png)
 Then run:
 
 ```powershell
 Get-NetAdapter
 ```
-
+![virtu switch config check](screenshot/netadapter-verify-dc01.png)
 Confirm that Windows Server is installed and that a network adapter is present.
 
 The network adapter may not yet have its final static IP configuration. That configuration is covered in Lab 04.
