@@ -34,7 +34,7 @@ A predictable IP address is important because client computers will use DC01 as 
 ```powershell
 Get-NetAdapter
 ```
-![virtu switch config check](screenshot/netadapter-verify-dc01.png)
+![01](screenshot/netadapter-verify-dc01.png)
 
 4. Identify the active network adapter and its interface name.
 
@@ -47,7 +47,6 @@ Run:
 ```powershell
 Get-NetIPConfiguration
 ```
-![01](screenshot/Lab4-carrent-IP-config.png)
 Review the adapter's current IPv4 address, default gateway, and DNS configuration.
 
 ### Step 3 — Configure the Static IPv4 Address
