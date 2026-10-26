@@ -149,8 +149,8 @@ The network adapter may not yet have its final static IP configuration. That con
 
 ## 5. Validation Checklist
 
-- [x] A virtual machine named `DC01` exists in Hyper-V Manager.
-- [x] The VM uses Generation 2.
+- [ ] A virtual machine named `DC01` exists in Hyper-V Manager.
+- [ ] The VM uses Generation 2.
 - [ ] Memory is configured as intended.
 - [ ] A 60 GB VHDX is attached.
 - [ ] The VM is connected to `AD-Lab-Private`.
@@ -184,6 +184,6 @@ A Generation 2 Hyper-V virtual machine named `DC01` runs Windows Server 2025 Sta
 
 **Status:** DC01 has been created and Windows Server 2025 Standard Evaluation has been installed. Review the checklist and add evidence for any configuration items that have not yet been documented.
 
-## 10. Next Lab
+## 9. Next Lab
 
 [Lab 04 — Configure the Domain Controller's Network Settings](lab-04-domain-controller-network.md)
