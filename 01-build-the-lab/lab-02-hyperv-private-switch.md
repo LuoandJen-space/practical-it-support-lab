@@ -105,21 +105,10 @@ This is also expected for a Private switch. If host-to-VM communication is requi
 
 The `AD-Lab-Private` virtual switch is available and configured as a Private switch. It provides the isolated network required for the Active Directory practice environment.
 
-## 8. Evidence Record
-
-Record the following evidence:
-
-- Virtual switch name and type
-- Screenshot of the switch configuration in Virtual Switch Manager
-- PowerShell output from `Get-VMSwitch`
-- Confirmation that DC01 and CLIENT01 use the same switch
-
-Avoid including unrelated personal information in screenshots.
-
-## 9. Status
+## 8. Status
 
 **Status:** Switch created and verified as Private. VM adapter assignments should be confirmed and documented as part of the lab evidence.
 
-## 10. Next Lab
+## 9. Next Lab
 
 [Lab 03 — Create and Install the Domain Controller VM](lab-03-domain-controller-vm.md)
