@@ -10,7 +10,7 @@ This section starts with the prerequisites and covers virtual machine creation, 
 
 | Lab | Topic | Status |
 |---|---|---|
-| 01 | Check host requirements and prepare installation media | Planned |
+| 01 | Check host requirements and prepare installation media | Completed |
 | 02 | Create an isolated Hyper-V virtual switch | Completed |
 | 03 | Create and install the domain controller VM | Completed |
 | 04 | Configure and verify domain controller networking | Completed |
