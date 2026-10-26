@@ -129,6 +129,7 @@ Run:
 ping 192.168.50.10
 ```
 ![2](screenshot/lab7-test-connect-to-DC01.png)
+
 A successful result should show replies from `192.168.50.10` and ideally zero packet loss.
 
 If Ping fails, do not immediately change the IP address. Check that DC01 is running, both VMs are connected to the same private virtual switch, and both addresses are in the intended subnet.
@@ -155,7 +156,7 @@ Resolve-DnsName `
     -Type SRV `
     -Server 192.168.50.10
 ```
-![4](screenshot/lab7-test-DNS-name-resolution.png)
+![4](screenshot/lab7-test-DNS-name-resolution-LDAP.png)
 The result should identify `dc01.adlab.test` as the service target and show LDAP port `389`.
 
 An A record resolves a hostname to an IP address. An SRV record identifies a service endpoint, which Active Directory clients use to locate domain services.
