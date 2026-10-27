@@ -82,7 +82,7 @@ Check the computer name:
 hostname
 ```
 
-![3](screenshot/llab10-hostname.png)
+![3](screenshot/lab10-hostname.png)
 
 Expected result: `CLIENT01`.
 
@@ -173,7 +173,7 @@ Run:
 whoami
 ```
 
-![9](lab10-whoami.png)
+![9](screenshot/lab10-whoami.png)
 
 Expected result:
 
@@ -203,7 +203,7 @@ While signed in as `ADLAB\jessie`, run:
 whoami /groups
 ```
 
-![10](lab10-whoami-groups.png)
+![10](screenshot/lab10-whoami-groups.png)
 
 Check whether `LL_Lab_Helpdesk` appears in the output.
 
