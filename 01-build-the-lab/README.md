@@ -19,8 +19,7 @@ This section starts with the prerequisites and covers virtual machine creation, 
 | 07 | Configure and verify client networking | Completed |
 | 08 | Join the client to the domain | Completed |
 | 09 | Create test users, groups, and organisational units | Completed |
-| 10 | Create and test a practice file share | Planned |
-| 11 | Verify the complete working baseline | In Progress |
+| 10 | Verify the complete working baseline | Completed |
 
 ## Documentation Standard
 
