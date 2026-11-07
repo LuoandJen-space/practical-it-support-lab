@@ -100,3 +100,106 @@ When investigating a reported problem:
 * An event recorded in Event Viewer is not automatically the cause of an incident.
 * A single measurement may not represent the system's normal behaviour.
 * Record observations separately from hypotheses and conclusions.
+
+
+# Runbook
+
+## Purpose
+
+To establish a basic Windows system baseline before making configuration changes.
+
+## When to Use
+
+Use this runbook when:
+
+- A computer is reported as slow
+- Applications are responding slowly
+- The system appears unstable
+- A performance issue has been reported
+- The cause of the issue is not yet known
+
+## Procedure
+
+### Step 1 — Confirm the symptom
+
+Record:
+
+- What is the user experiencing?
+- When did it start?
+- Is the problem constant or intermittent?
+- Which application is affected?
+
+### Step 2 — Determine scope
+
+Check whether the issue affects:
+
+- One application
+- Multiple applications
+- The entire Windows system
+- One user
+- Multiple users
+
+### Step 3 — Collect system baseline
+
+Check:
+
+- CPU utilisation
+- Memory utilisation
+- Disk utilisation
+- Running processes
+- Services
+- Startup applications
+
+### Step 4 — Check Task Manager
+
+Record:
+
+- CPU
+- Memory
+- Disk
+- Top processes
+- Abnormal resource usage
+
+### Step 5 — Check Windows services
+
+Identify:
+
+- Relevant services
+- Service state
+- Startup type
+- Related processes
+
+### Step 6 — Check Device Manager
+
+Look for:
+
+- Warning icons
+- Disabled devices
+- Driver problems
+- Recently changed hardware
+
+### Step 7 — Check Event Viewer
+
+Review events around the reported incident time.
+
+### Step 8 — Check Reliability Monitor
+
+Look for:
+
+- Application crashes
+- Windows failures
+- Driver failures
+- Updates
+- Repeated incidents
+
+### Step 9 — Document baseline
+
+Record findings before making changes.
+
+## Verification
+
+After troubleshooting changes are made:
+
+- Reproduce the original symptom
+- Compare with the baseline
+- Confirm whether the issue has improved
