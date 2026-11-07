@@ -144,3 +144,63 @@ The code should be interpreted together with the crash context and other availab
 - Record observations separately from hypotheses and confirmed conclusions.
 
 The objective is to use Event Viewer as one source of evidence within a structured troubleshooting process.
+
+# Windows Event Investigation Runbook
+
+## Purpose
+
+To investigate Windows events and correlate them with an incident timeline.
+
+## When to Use
+
+Use this runbook when:
+
+- A system crashes
+- A computer unexpectedly restarts
+- An application fails
+- A service stops
+- A driver problem is suspected
+
+## Procedure
+
+### Step 1 — Establish the incident time
+
+Record:
+
+- Approximate failure time
+- Exact failure time if available
+- User-reported time
+
+### Step 2 — Identify relevant event sources
+
+Review:
+
+- System
+- Application
+- Security when relevant
+
+### Step 3 — Review events before the incident
+
+Do not only inspect the event that occurred at the failure time. Look for events immediately before it.
+
+### Step 4 — Record event details
+
+Capture:
+
+- Timestamp
+- Event ID
+- Source
+- Level
+- Message
+- Related component
+
+### Step 5 — Build a timeline
+
+Example:
+
+text
+- 20:31:04 Driver event
+- 20:31:12 Application error
+- 20:31:15 BugCheck
+- 20:31:20 System restart
+- 20:31:25 Kernel-Power
