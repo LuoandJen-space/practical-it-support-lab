@@ -118,3 +118,96 @@ A service state or event should be interpreted in context. It does not independe
 * Collect evidence before changing service configuration.
 * Verify the original symptom after any troubleshooting change.
 
+# Windows Service Troubleshooting Runbook
+
+## Purpose
+
+To investigate a Windows service that is stopped, failing, or behaving unexpectedly.
+
+## When to Use
+
+Use this runbook when:
+
+- A service is stopped unexpectedly
+- An application reports a service-related error
+- A service repeatedly fails to start
+- Event Viewer reports a service failure
+
+## Procedure
+
+### Step 1 — Confirm the affected service
+
+Record:
+
+- Service name
+- Display name
+- Current state
+- Startup type
+
+### Step 2 — Check service state
+
+Determine whether the service is:
+
+- Running
+- Stopped
+- Starting
+- Stopping
+
+Do not assume that a stopped service is the root cause.
+
+### Step 3 — Identify the process
+
+If applicable, identify:
+
+- PID
+- Process name
+- Related application
+
+### Step 4 — Check dependencies
+
+Determine whether the service depends on other services. Check whether dependent services are running.
+
+### Step 5 — Check Event Viewer
+
+Look for:
+
+- Service Control Manager events
+- Error events
+- Warning events
+- Events immediately before and after the failure
+
+### Step 6 — Check recent changes
+
+Investigate:
+
+- Windows updates
+- Driver changes
+- Application installation
+- Configuration changes
+
+### Step 7 — Form a hypothesis
+
+Example: The service failure may be related to a missing dependency.
+This is a hypothesis, not a conclusion.
+
+### Step 8 — Test the hypothesis
+
+Perform a controlled test.
+
+### Step 9 — Verify
+
+Confirm:
+
+- Service starts successfully
+- Application works
+- Error does not recur
+
+### Step 10 — Document
+
+Record:
+
+- Evidence
+- Test performed
+- Result
+- Final conclusion
+
