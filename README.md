@@ -17,6 +17,8 @@ The goal is to help learners understand not only how to perform a technical task
 | Windows Desktop Support | System performance, services, startup troubleshooting, Event Viewer, and Windows diagnostics |
 | Networking | IPv4, DNS, DHCP, connectivity testing, and network troubleshooting |
 | Active Directory | Domain controllers, domain join, users, groups, OUs, GPO, authentication, and permissions |
+| Entra ID | Cloud User, Group, Authentication, Authorization, MFA, Roles |
+| Microsoft 365 | Admin Centre, Licences, Service Plans, Outlook, Exchange Online, Sharing, Sync |
 | Integrated Troubleshooting | End-to-end investigation across Windows, networking, identity, and resource access |
 | Help Desk Operations | Ticket notes, knowledge base articles, evidence collection, and escalation |
 | Diagnostic Scripts | Reusable PowerShell tools with usage instructions and example outputs |
@@ -74,6 +76,6 @@ This is an independent learning portfolio built from practical lab exercises. La
 
 ## Future Development
 
-Planned areas include Microsoft 365, Microsoft Entra ID, Intune, and PowerShell automation.
+Planned areas include Intune, and PowerShell automation.
 
 The repository will expand as each new lab is documented and verified.
